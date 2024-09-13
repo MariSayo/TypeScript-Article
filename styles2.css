@@ -1,43 +1,50 @@
-
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background:radial-gradient(circle, rgba(247,255,0,1) 0%, rgba(255,118,0,1) 100%);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgba(247, 255, 0, 1) 0%,
+    rgba(255, 118, 0, 1) 100%
+  );
 }
 
 .music-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 header {
-    width: 100%;
-    background:linear-gradient(90deg, rgba(148,224,17,1) 0%, rgba(9,255,176,1) 35%, rgba(41,238,249,1) 100%);
-    padding: 1rem;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(148, 224, 17, 1) 0%,
+    rgba(9, 255, 176, 1) 35%,
+    rgba(41, 238, 249, 1) 100%
+  );
+  padding: 1rem;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 1rem;
+  display: inline;
+  margin-right: 1rem;
 }
 
 main {
-    flex-grow: 1;
-    width: 90%;
-    max-width: 600px;
-    margin: 2rem auto;
+  flex-grow: 1;
+  width: 90%;
+  max-width: 600px;
+  margin: 2rem auto;
 }
 
 /* .musicdududu {
@@ -45,28 +52,38 @@ main {
 } */
 
 .lyrics {
-    background: linear-gradient(90deg, rgba(103,255,253,1) 2%, rgba(220,80,255,1) 62%, rgba(255,255,0,1) 100%);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    line-height: 1.8;
-    margin-top: 2rem;
+  background: linear-gradient(
+    90deg,
+    rgba(103, 255, 253, 1) 2%,
+    rgba(220, 80, 255, 1) 62%,
+    rgba(255, 255, 0, 1) 100%
+  );
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+  margin-top: 2rem;
 }
 
 .footer-music {
-    width: 100%;
-    background: linear-gradient(90deg, rgba(148,224,17,1) 0%, rgba(9,255,176,1) 35%, rgba(41,238,249,1) 100%);
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(148, 224, 17, 1) 0%,
+    rgba(9, 255, 176, 1) 35%,
+    rgba(41, 238, 249, 1) 100%
+  );
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
 }
 
 @media (max-width: 600px) {
-    main {
-        width: 95%;
-    }
-    
-    .lyrics {
-        padding: 1rem;
-    }
+  main {
+    width: 95%;
+  }
+
+  .lyrics {
+    padding: 1rem;
+  }
 }
